@@ -14,7 +14,6 @@ for (var i = 0; i < cartas.length; i++) {
     deck.push(cartas[i]);
 }
 
-console.log(deck);
 var state = 0;
 var flipCard1 = document.querySelector(".flip-card1");
 var flipCard2 = document.querySelector(".flip-card2");
@@ -63,10 +62,12 @@ function updateData() {
     forca2.innerText = cartaMaquina.atributos.forca;
     defesa2.innerText = cartaMaquina.atributos.defesa;
     magia2.innerText = cartaMaquina.atributos.magia;
-
-    flipCard1.classList.add("pulse");
-    flipCardInner1.style.transform = "rotateY(180deg)";
-    flipCardAudio.play();
+    
+    setTimeout(()=>{
+        flipCard1.classList.add("pulse");
+        flipCardInner1.style.transform = "rotateY(180deg)";
+        flipCardAudio.play();
+    }, 50);
 }
 
 function exibirOpcoes() {
