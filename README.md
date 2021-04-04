@@ -7,7 +7,7 @@
 
  <h2 align="center">Jogo de cartas no estilo Super Trunfo.</h2>
 
-<h1 align="center">Clique <a href="https://cdpn.io/thyezoliveiramonteiro/debug/vYgydYx/NQkzYKNgOWvA">aqui</a> para jogar online</h1>
+<h1 align="center">Clique <a href="https://codepen.io/thyezoliveiramonteiro/full/vYgydYx">aqui</a> para jogar online</h1>
 
 # Como jogar?
 
